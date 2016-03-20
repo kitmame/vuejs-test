@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js test</title>
+</head>
+
+<body>
+  <div id="app">
+    <p>{{message}}</p>
+    <input v-model="message">
+    <ul>
+      <li v-for="todo in todos">
+        {{ todo.text }}
+      </li>
+    </ul>
+    <input v-model="val1">
+    <input v-model="val2">
+    <input v-model="val1and2">
+  </div>
+<script src="./assets/app.js"></script>
+</body>
+</html>
